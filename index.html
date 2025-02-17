@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trivago Home Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+    <div class="logo">
+      <img src="data:image/png;base64,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" alt="Trivago Logo">
+    </div>
+  </header>
+
+  <!-- Search Bar Section -->
+  <section class="search-bar">
+    <input type="text" placeholder="Where are you going?" class="location-input">
+    <input type="date" class="checkin-input">
+    <input type="date" class="checkout-input">
+    <button class="search-button">Search</button>
+  </section>
+  <br>
+  <br>
+   <div class="Container">
+    <h1>Save up to 30% on your next hotel stay</h1>
+   </div>
+
+  <!-- Carousel Images Section -->
+  <section class="carousel">
+    <div class="carousel-images">
+      <img src="https://imgcy.trivago.com/c_fill,d_dummy.jpeg,e_sharpen:60,f_auto,h_267,q_40,w_400/hotelier-images/c6/27/f0a3612d17cb6b2439b1887d39e1751a83546c0efb931fac9760c49c5e60.jpeg/1200x400?text=Hotel+1" alt="Hotel 1">
+      <img src="https://imgcy.trivago.com/c_fill,d_dummy.jpeg,e_sharpen:60,f_auto,h_267,q_40,w_400/hotelier-images/58/bb/009765305d20e11c51c043b40bc801e29d9a3153614849d9370e596011b6.jpeg/1200x400?text=Hotel+2" alt="Hotel 2">
+      <img src="https://imgcy.trivago.com/c_fill,d_dummy.jpeg,e_sharpen:60,f_auto,h_267,q_40,w_400/hotelier-images/e4/ea/5a2b149ece14f758ecba51ec99f2d358e3a53fccb7edb68a3081f7af7cf4.jpeg/1200x400?text=Hotel+3" alt="Hotel 3">
+      <img src="https://imgcy.trivago.com/c_fill,d_dummy.jpeg,e_sharpen:60,f_auto,h_267,q_40,w_400/hotelier-images/c6/27/f0a3612d17cb6b2439b1887d39e1751a83546c0efb931fac9760c49c5e60.jpeg/1200x400?text=Hotel+4" alt="Hotel 4">
+    </div>
+  </section>
+  
+
+  <!-- Featured Hotels Section -->
+  <section class="featured-hotels">
+    <h2>Featured Hotels</h2>
+    <br>
+    <br>
+    <div class="hotel-cards">
+      <div class="hotel-card">
+        <img src="https://imgcy.trivago.com/c_fill,d_dummy.jpeg,e_sharpen:60,f_auto,h_258,q_auto,w_258/categoryimages/64/98/64981_v33.jpeg/300x200?text=Hotel+1" alt="Hotel 1">
+        <h3>Hotel One</h3>
+        <p>Location: Paris, France</p>
+        <p>Price: $150/night</p>
+      </div>
+      <div class="hotel-card">
+        <img src="https://imgcy.trivago.com/c_fill,d_dummy.jpeg,e_sharpen:60,f_auto,h_258,q_auto,w_258/categoryimages/64/98/64989_v41.jpeg/300x200?text=Hotel+2" alt="Hotel 2">
+        <h3>Hotel Two</h3>
+        <p>Location: Rome, Italy</p>
+        <p>Price: $120/night</p>
+      </div>
+      <div class="hotel-card">
+        <img src="https://imgcy.trivago.com/c_fill,d_dummy.jpeg,e_sharpen:60,f_auto,h_258,q_auto,w_258/categoryimages/64/99/64993_v69.jpeg/300x200?text=Hotel+3" alt="Hotel 3">
+        <h3>Hotel Three</h3>
+        <p>Location: New York, USA</p>
+        <p>Price: $200/night</p>
+      </div>
+      <div class="hotel-card">
+        <img src="https://imgcy.trivago.com/c_fill,d_dummy.jpeg,e_sharpen:60,f_auto,h_258,q_auto,w_258/categoryimages/73/94/73947_v71.jpeg/300x200?text=Hotel+4" alt="Hotel 4">
+        <h3>Hotel Four</h3>
+        <p>Location: Tokyo, Japan</p>
+        <p>Price: $180/night</p>
+      </div>
+    </div>
+  </section>
+  <br>
+  <br>
+  <br>
+  <br>
+   <div class="Container-class">
+   <center>
+   <h2>Hot Hotel deals right Now!<h2>
+   </center>
+    <br>
+    <br>
+    <div class="hotel-cards">
+        <div class="hotel-card">
+          <img src="https://imgcy.trivago.com/c_fill,d_dummy.jpeg,e_sharpen:60,f_auto,h_267,q_40,w_400/partner-images/51/e5/644561948580922fbeb7cb3625b88870d152541e2e40969caca67f66dc4f.jpeg/300x200?text=Hotel+1" alt="Hotel 1">
+          <h3>Hotel One</h3>
+          <p>Location: Dehli, India</p>
+          <p>Price: $500/night</p>
+        </div>
+        <div class="hotel-card">
+          <img src="https://imgcy.trivago.com/c_fill,d_dummy.jpeg,e_sharpen:60,f_auto,h_267,q_40,w_400/hotelier-images/75/5a/7defeb2d80ce1cab16efa6b208f1c2455095c2ce7f4cd5708029f8e0c267.jpeg/300x200?text=Hotel+2" alt="Hotel 2">
+          <h3>Hotel Two</h3>
+          <p>Location: Benglore, India</p>
+          <p>Price: $350/night</p>
+        </div>
+        <div class="hotel-card">
+          <img src="https://imgcy.trivago.com/c_fill,d_dummy.jpeg,e_sharpen:60,f_auto,h_267,q_40,w_400/hotelier-images/f8/f9/15ec0b3e3cf65fb516470f527e52f3b1ea2dd3a1cedeb7bfe6f5e6c3c224.jpeg/300x200?text=Hotel+3" alt="Hotel 3">
+          <h3>Hotel Three</h3>
+          <p>Location: Chenai, India</p>
+          <p>Price: $420/night</p>
+        </div>
+        <div class="hotel-card">
+          <img src="https://imgcy.trivago.com/c_fill,d_dummy.jpeg,e_sharpen:60,f_auto,h_267,q_40,w_400/hotelier-images/2a/41/457fc4d8656fc7ad4d2951c599d2ea091f1e810f8d8237d5dc0bfd15ddf1.jpeg/300x200?text=Hotel+4" alt="Hotel 4">
+          <h3>Hotel Four</h3>
+          <p>Location: Haidrabhad, India</p>
+          <p>Price: $280/night</p>
+        </div>
+   </div>
+   <br>
+   <br>
+   <br>
+   <div class="Container-function">
+   <center>
+   <h2>Best-Rooms!<h2>
+   </center>
+    <br>
+    <br>
+    <div class="hotel-cards">
+        <div class="hotel-card">
+          <img src="https://imgcy.trivago.com/c_fill,d_dummy.jpeg,e_sharpen:60,f_auto,h_267,q_40,w_400/partner-images/be/45/382cd1cba1f4d61ef26e8e2f68bce090aab457509d902b3dbd897ca1a32b.jpeg/300x200?text=Hotel+1" alt="Hotel 1">
+          <h3>Hotel One</h3>
+          <p>Location: Dehli, India</p>
+          <p>Price: $500/night</p>
+        </div>
+        <div class="hotel-card">
+          <img src="https://imgcy.trivago.com/c_fill,d_dummy.jpeg,e_sharpen:60,f_auto,h_267,q_40,w_400/partner-images/5b/8b/6aea302b4525609018989c731a9a3b8560ddec7bbac689c926b9838c3e3c.jpeg/300x200?text=Hotel+2" alt="Hotel 2">
+          <h3>Hotel Two</h3>
+          <p>Location: Benglore, India</p>
+          <p>Price: $350/night</p>
+        </div>
+        <div class="hotel-card">
+          <img src="https://imgcy.trivago.com/c_fill,d_dummy.jpeg,e_sharpen:60,f_auto,h_267,q_40,w_400/hotelier-images/1d/5f/ddc0f42b55156372970d608557243ee6e4362129251ab8d256b693752768.jpeg/300x200?text=Hotel+3" alt="Hotel 3">
+          <h3>Hotel Three</h3>
+          <p>Location: Chenai, India</p>
+          <p>Price: $420/night</p>
+        </div>
+        <div class="hotel-card">
+          <img src="https://imgcy.trivago.com/c_fill,d_dummy.jpeg,e_sharpen:60,f_auto,h_267,q_40,w_400/hotelier-images/b8/8d/30d11e2be62674f39a7ecaadd7c6972567394ec934e786e6747610853f7f.jpeg/300x200?text=Hotel+4" alt="Hotel 4">
+          <h3>Hotel Four</h3>
+          <p>Location: Haidrabhad, India</p>
+          <p>Price: $280/night</p>
+        </div>
+   </div>
+   <br>
+   <br>
+   <br>
+
+   <center>
+   <section class="submit-bar">
+    <input type="text" placeholder="Book the best Hotels" class="Submit-input">
+    <button class="submit-button">Submit</button>
+  </section>
+  </center>
+  <br>
+  <br>
+  <center>
+  <div class="Remove-bar">
+    <button class="Remove-button">Remove</button>
+  </div>
+  </center>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>&copy; 2025 Trivago. All rights reserved.</p>
+  </footer>
+
+  <!-- JavaScript for carousel functionality -->
+  <script>
+    let currentIndex = 0;
+    const images = document.querySelectorAll('.carousel-images img');
+    const totalImages = images.length;
+
+    function changeImage() {
+      images[currentIndex].style.display = 'none';
+      currentIndex = (currentIndex + 1) % totalImages;
+      images[currentIndex].style.display = 'block';
+    }
+
+    setInterval(changeImage, 3000); // Change image every 3 seconds
+  </script>
+</body>
+</html>
